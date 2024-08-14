@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700;800&family=Open+Sans:wght@300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul, ol {
+    list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Barlow", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+body {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    width: 1130px;
+    margin: 0;
+    background-color: rgb(192, 240, 193);
+}
+.menu {
+    padding: 30px 0;
+}
+.menu .container { 
+    display: flex;
+}
+.menu .list {
+    margin-left: auto;
+}
+.menu .list ul {
+    display: flex; 
+}
+.menu .list ul li{
+    font-size: 18px; 
+    font-weight: 500px;
+    text-transform: capitalize;
+    margin-left: 30px;
+    color: black;
+}
+.menu .dwonlood {
+    margin-left: 45px;
+}
+.menu .dwonlood a {
+    font-size: 18px;
+    font-weight: 500;
+    background-color: crimson;
+    color: floralwhite;
+    padding: 12px 17px;
+    display: ;
+}
